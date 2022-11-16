@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: space-between;
+      }
+      .imgContainer {
+        display: flex;
+        justify-content: space-between;
+      }
+      .NC_Flag {
+        height: 85px;
+        width: 127px;
+      }
+      .NC_Seal {
+        height: 100px;
+        width: 100px;
+      }
+      #list {
+        background-color: rgb(
+          236,
+          234,
+          234
+        );
+        width: 300px;
+        border: 1px solid gray;
+      }
+      h4 {
+        text-align: center;
+      }
+      #imgs {
+        width: 70em;
+        border: 2px solid lightgrey;
+        text-align: center;
+        background-color: lightgray;
+        border: 1px solid gray;
+      }
+      #nested_blue {
+        background-color: rgb(
+          95,
+          171,
+          196
+        );
+        height: 25px;
+      }
+      ol {
+        list-style: none;
+        counter-reset: li;
+      }
+      li:before {
+        counter-increment: li;
+        content: counters(li, ".") ". ";
+      }
+
+      body {
+        width: 80%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>North Carolina</h2>
+    <hr />
+    <p>
+      From Wikipedia, the free
+      encyclopedia
+    </p>
+    <pre>
+            This article is about the U.S. state. For the former British colony, 
+            see Province of North Carolina. For other uses, see North Carolina 
+            (disambiguation). "The Old North State" redirects here. For the song, 
+            see The Old North State (song).
+        </pre
+    >
+    <div class="container">
+      <div>
+        <p>
+          <b>North Carolina</b>is a
+          <a
+            href="https://en.wikipedia.org/wiki/U.S._state"
+          >
+            state
+          </a>
+          in the
+          <a
+            href="https://en.wikipedia.org/wiki/Southeastern_United_States"
+            >Southeastern</a
+          >
+          in the United States, after
+          New York City and Los Angeles.
+          With a population of 2,746,388
+          in the 2020 census,[6] it is
+          also the most populous city in
+          the Midwestern United States.
+          As the seat of Cook County
+          (the second-most populous U.S.
+          county), the city is the
+          center of the Chicago
+          metropolitan area, one of the
+          largest in the world.
+        </p>
+
+        <div id="list">
+          <h4>Contents</h4>
+          <ol>
+            <li>
+              History
+              <ol>
+                <li>
+                  Native Americans
+                </li>
+                <li>
+                  Anglo-European
+                  settlement
+                </li>
+              </ol>
+            </li>
+            <li>
+              Geography
+              <ol>
+                <li>Flora and fauna</li>
+                <li>Major rivers</li>
+              </ol>
+            </li>
+            <li>
+              Demographics
+              <ol>
+                <li>
+                  Race and ethnicity
+                </li>
+                <li>Languages</li>
+              </ol>
+            </li>
+            <li>Economy</li>
+            <li>Arts and culture</li>
+            <li>Tourism</li>
+            <li>Education</li>
+            <li>Health</li>
+          </ol>
+        </div>
+      </div>
+
+      <div id="imgs">
+        <h2>North Carolina</h2>
+        <div id="nested_blue">
+          State
+        </div>
+        State of North Carolina
+
+        <hr />
+        <div id="imgContainer">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Flag_of_North_Carolina.svg/188px-Flag_of_North_Carolina.svg.png"
+            alt="NC Flag"
+            class="NC_Flag"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Seal_of_North_Carolina.svg/150px-Seal_of_North_Carolina.svg.png"
+            alt="NC Seal"
+            class="NC_Seal"
+          />
+        </div>
+        <p>
+          Downtown Chicago, Grant Park,
+          with willis tower at left
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

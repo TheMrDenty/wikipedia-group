@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+      .imgContainer {
+        display: flex;
+        justify-content: space-between;
+      }
+      .NY_Flag {
+        height: 85px;
+        width: 127px;
+      }
+      .NY_Seal {
+        height: 100px;
+        width: 100px;
+      }
+      #list {
+        background-color: rgb(
+          236,
+          234,
+          234
+        );
+        width: 300px;
+        border: 1px solid gray;
+      }
+      h4 {
+        text-align: center;
+      }
+      #imgs {
+        width: 70em;
+        border: 2px solid lightgrey;
+        text-align: center;
+        background-color: lightgray;
+        border: 1px solid gray;
+      }
+      #nested_blue {
+        background-color: rgb(
+          95,
+          171,
+          196
+        );
+        height: 25px;
+      }
+      ol {
+        list-style: none;
+        counter-reset: li;
+      }
+      li:before {
+        counter-increment: li;
+        content: counters(li, ".") ". ";
+      }
+
+      body {
+        width: 80%;
+        margin: 0 auto 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>New York (state)</h2>
+    <hr />
+    <p>
+      From Wikipedia, the free
+      encyclopedia
+    </p>
+    <div class="container">
+      <div>
+        <p>
+          <b>New York</b>officially
+          known as the
+          <b>State of New York</b>, is a
+          <a
+            href="https://en.wikipedia.org/wiki/U.S._state"
+          >
+            state
+          </a>
+          in the
+          <a
+            href="https://en.wikipedia.org/wiki/Northeastern_United_States"
+            >Northeastern United
+            States</a
+          >
+          It is often called New York
+          State to distinguish it from
+          its largest city, New York
+          City. With a total area of
+          54,556 square miles (141,300
+          km2),[2] New York is the
+          27th-largest U.S. state by
+          area. With 20.2 million
+          people, it is the
+          fourth-most-populous state in
+          the United States as of 2021,
+          with approximately 44% living
+          in New York City, including
+          25% of the state's population
+          within Brooklyn and Queens,
+          and another 15% on the
+          remainder of Long Island, the
+          most populous island in the
+          United States.[6][9] The state
+          is bordered by New Jersey and
+          Pennsylvania to the south, and
+          Connecticut, Massachusetts,
+          and Vermont to the east; it
+          has a maritime border with
+          Rhode Island, east of Long
+          Island, as well as an
+          international border with the
+          Canadian provinces of Quebec
+          to the north and Ontario to
+          the northwest.
+        </p>
+
+        <div id="list">
+          <h4>Contents</h4>
+          <ol>
+            <li>
+              History
+              <ol>
+                <li>
+                  Native American
+                  history
+                </li>
+                <li>16th Century</li>
+              </ol>
+            </li>
+            <li>
+              Geography
+              <ol>
+                <li>Water</li>
+                <li>Climate</li>
+              </ol>
+            </li>
+            <li>
+              Demographics
+              <ol>
+                <li>Population</li>
+                <li>
+                  Race and ethnicity
+                </li>
+              </ol>
+            </li>
+            <li>Economy</li>
+            <li>Education</li>
+            <li>Transportation</li>
+            <li>Government</li>
+            <li>Politics</li>
+          </ol>
+        </div>
+      </div>
+
+      <div id="imgs">
+        <h2>New York</h2>
+        <div id="nested_blue">
+          State
+        </div>
+        State of New York
+        <hr />
+        <div class="imgContainer">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_New_York.svg/188px-Flag_of_New_York.svg.png"
+            alt="NY Flag"
+            class="NY_Flag"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Seal_of_New_York_%28state%29.svg/150px-Seal_of_New_York_%28state%29.svg.png"
+            alt="NY Seal"
+            class="NY_Seal"
+          />
+        </div>
+        <p>
+          Nickname: The Empire State
+          Motto(s): Excelsior (in
+          Latin)[1] Ever upward Anthem:
+          "I Love New York"
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

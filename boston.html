@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .imgContainer {
+            display: flex;
+            justify-content: space-between;
+        }
+        .Boston_Skyline {
+            height: 75px;
+            width: 200px;
+        }
+        .Boston_Street {
+            height: 100px;
+            width: 100px;
+        }
+        .OSH {
+            height: 100px;
+            width: 95px;
+        }
+        #list {
+        background-color: rgb(236, 234, 234);
+        width: 300px;
+        border: 1px solid gray;
+        align-items: flex-start;
+        }
+        h4 {
+            text-align: center;
+        }
+        #imgs {
+            width: 70em;
+            border: 2px solid lightgrey;
+            text-align: center;
+            background-color: lightgray;
+            border: 1px solid gray;
+        }
+        #nested_blue {
+            background-color: rgb(95, 171, 196);
+            height: 25px;
+        }
+        ol {
+            list-style: none;
+            counter-reset: li;
+        }
+        li:before {
+           counter-increment: li;
+           content: counters(li, ".") ". ";
+        }
+        
+        body {
+            width: 80%;
+            margin: 0 auto 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>Boston</h2>
+    <hr />
+    <p>From Wikipedia, the free encyclopedia</p>
+        <pre>
+            This article is about the U.S. city. For the town in England 
+            from which the city is named after, see Boston, Lincolnshire. 
+            For other uses, see Boston (disambiguation).
+        </pre>
+        <div class="container">
+            <div>
+                <p>
+                    <b>Boston </b>, officially the
+                    <b>City of Boston</b>
+                    in the 
+                    <a
+                    href="https://en.wikipedia.org/wiki/Capital_city"
+                    >state capital
+                    </a>
+                    and
+                    <a href="https://en.wikipedia.org/wiki/List_of_municipalities_in_Massachusetts">
+                    most populous city
+                    </a>
+                    of the Commonwealth of Massachusetts, as well as the cultural and financial center of the New England region of the United States. It is the 24th-most populous city in the country.[5]
+                    The city boundaries encompass an area of about 48.4 sq mi (125 km2)[6] and a population of 675,647 as of 2020.[7][8] It is the seat of Suffolk County (although the county government was disbanded on July 1, 1999).[9] The city is the economic and cultural anchor of a substantially larger metropolitan area known as Greater Boston, a metropolitan statistical area (MSA) home to a census-estimated 4.8 million people in 2016 and ranking as the tenth-largest MSA in the country.
+                    [10] A broader combined statistical area (CSA), generally corresponding to the commuting area[11] and including Providence, Rhode Island, is home to approximately 8.2 million people, 
+                    making it the sixth most populous in the United States.[12]
+                </p>
+                
+            
+
+                <div id="list">
+                    <h4>Contents</h4>
+                    <ol>
+                    <li>History
+                        <ol>
+                            <li>Indigenous era</li>
+                            <li>Founding by Europeans</li>
+                                <ol>
+                                    <li>The name "Boston"</li>
+                                    <li>Puritan occupation</li>
+                                </ol>
+                        </ol>
+                    </li>
+                    <li>Geography
+                        <ol>
+                            <li>Neighborhoods</li>
+                            <li>Climate</li>
+                        </ol>
+                    </li>
+                    <li>Demographics
+                        <ol>
+                            <li>Ancestry</li>
+                            <li>Demographic breakdown by ZIP code</li>
+                            <ol>
+                                <li>Income</li>
+                                
+                            </ol>
+                        </ol>
+                    </li>
+                    <li>Economy</li>
+                    <li>Arts and culture</li>
+                    <li>Tourism</li>
+                    <li>Education</li>
+                    <li>Health</li>
+                    </ol>
+                    
+                     
+                </div>
+    
+            </div>
+    
+                <div id="imgs">
+                    
+                    <h2>Boston</h2>
+                    <div id="nested_blue">State capital city</div>
+                    City of Boston
+            
+                    <hr />
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Boston_-_panoramio_%2823%29.jpg/432px-Boston_-_panoramio_%2823%29.jpg"
+                        alt="Boston Skyline"
+                        class="Boston_Skyline" 
+                    />
+                    <div id="imgContainer">
+                        <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/ISH_WC_Boston4.jpg/258px-ISH_WC_Boston4.jpg"
+                        alt="Boston Street"
+                        class="Boston_Street" 
+                        />
+                        <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boston_-_Old_State_House_%2848718568688%29.jpg/168px-Boston_-_Old_State_House_%2848718568688%29.jpg"
+                        alt="Old State House"
+                        class="OSH" 
+                        />
+                    </div>
+                    <p>From top, left to right: Downtown (from the Boston Harbor); Acorn Street on Beacon Hill; Old State House;</p>
+                </div>
+        
+            
+        </div>
+  
+      
+</body>
+</html>
